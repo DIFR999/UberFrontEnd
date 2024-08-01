@@ -15,6 +15,8 @@ class UsuariosController extends Controller
         $guardarUsuario = Http::post('http://localhost:8080/api/CrearUsuario',[
             "correo"=>$request->email,
             "contrasenia"=>$request->contrasena,
+            "latActual"=>$request->latitud,
+            "lonActual"=>$request->longitud,
             "persona"=>[
                 "dni"=>$request->dni,
                 "nombre1"=>$request->primerNombre,
