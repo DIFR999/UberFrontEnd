@@ -8,6 +8,8 @@ Route::get('/', function () {
 });
 
 Route::get('/Usuario/NuevoUsuario', [UsuariosController::class, 'CrearUsuario'])->name('usuario.CrearUsuario');
+Route::post('/Usuario/GuardarUsuario', [UsuariosController::class, 'GuardarUsuario'])->name('usuario.GuardarUsuario');
+
 
 
 

@@ -14,7 +14,7 @@
 <body>
 <h1>Registro</h1>
     <div>
-        <form action="#" method="POST"> {{-- Fomrulario de creacion de usuario --}}
+        <form action="{{route('usuario.GuardarUsuario')}}" method="POST"> {{-- Fomrulario de creacion de usuario --}}
             @csrf
             <div>
                 <fieldset>
@@ -22,7 +22,7 @@
                     <div>
                         <div>
                             <label for="primerNombre">Identidad</label>
-                            <input type="text" placeholder="Primer Nombre" name="primerNombre">
+                            <input type="text" placeholder="Identidad" name="dni">
                         </div>
                         <div>
                             <label for="primerNombre">Primer Nombre</label>
