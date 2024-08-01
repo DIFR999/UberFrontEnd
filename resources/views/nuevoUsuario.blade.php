@@ -77,7 +77,7 @@
                 <!-- prettier-ignore -->
                 {{-- Script unico para marcar la ubicaion actual--}}
                 <script
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ62cymsGJJcaJV7jZoQyacAuEmP60NE8&callback=initMap&v=weekly"
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpRCB0Sg5No0ReolmJ-2dOzOsIhrUpb_Y&callback=initMap&v=weekly"
                 defer
                 ></script>
 
